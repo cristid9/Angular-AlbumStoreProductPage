@@ -11,4 +11,8 @@ export class ProductService {
 
   constructor() { }
 
+  getAlbum(id: number) {
+    
+  }
+
 }
