@@ -18,7 +18,7 @@ try {
 let productTracklistingComponentExists = false;
 let ProductTracklistingComponent;
 try {
-  ProductTracklistingComponent = require('../../app/product-tracklisting/product-tracklisting.component.ts').ProductTracklistingComponent;
+  ProductTracklistingComponent = require('../../app/product-tracklistinging/product-tracklistinging.component.ts').ProductTracklistingComponent;
   productTracklistingComponentExists = true;
 } catch (e) {
   productTracklistingComponentExists = false;

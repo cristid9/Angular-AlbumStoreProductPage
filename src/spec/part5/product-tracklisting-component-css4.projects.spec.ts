@@ -6,7 +6,7 @@ const _ = require('lodash');
 let productTracklistingCssFileExists = false;
 let productTracklistingCssFile;
 try {
-  productTracklistingCssFile = require('../../app/product-tracklisting/product-tracklisting.component.css');
+  productTracklistingCssFile = require('../../app/product-tracklistinging/product-tracklistinging.component.css');
   productTracklistingCssFileExists = true;
 } catch (e) {
   productTracklistingCssFileExists = false;

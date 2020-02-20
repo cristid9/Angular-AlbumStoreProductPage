@@ -17,7 +17,7 @@ let json = require('../../assets/album.json');
 let productTracklistingExists = false;
 let ProductTracklistingComponent;
 try {
-  ProductTracklistingComponent = require('../../app/product-tracklisting/product-tracklisting.component.ts').ProductTracklistingComponent;
+  ProductTracklistingComponent = require('../../app/product-tracklistinging/product-tracklistinging.component.ts').ProductTracklistingComponent;
   productTracklistingExists = true;
 } catch (e) {
   productTracklistingExists = false;
